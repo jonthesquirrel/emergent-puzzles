@@ -1,0 +1,1 @@
+execute align xz run summon minecraft:armor_stand ~ ~ ~ {Tags:[boid_leader,boid],Invulnerable:true,Invisible:false,Silent:true,Attributes:[{Name:"minecraft:generic.movement_speed",Base:0.0d},{Name:"generic.knockback_resistance",Base:1.0d}],Passengers:[{id:"minecraft:block_display",Tags:[boid],block_state:{Name:"minecraft:glass"}}]}
