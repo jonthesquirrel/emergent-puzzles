@@ -1,1 +1,1 @@
-execute if block ^ ^ ^1 minecraft:air run tp @s ^ ^ ^1
+execute positioned ^ ^ ^1 if block ~ ~ ~ minecraft:air unless entity @e[tag=boid, distance=..0.5] run tp @s ~ ~ ~
