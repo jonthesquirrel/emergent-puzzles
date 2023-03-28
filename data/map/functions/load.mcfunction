@@ -1,2 +1,5 @@
+scoreboard objectives remove turn_choice
 scoreboard objectives add turn_choice dummy
+
+scoreboard objectives remove able_to_move_forward
 scoreboard objectives add able_to_move_forward dummy
